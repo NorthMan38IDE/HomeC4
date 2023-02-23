@@ -19,9 +19,8 @@ int Summa(int value){ // Сумма цифр в числе
 int tmp = 0;
     for(int i = 0; value > 0; i++)
     {
-       int iteration = value % 10; // магия
-       tmp = tmp + iteration;      // магия
-       value /= 10;                // магия
+       tmp += value % 10;      // магия
+       value /= 10;            // магия
     }
     return tmp;}
 
