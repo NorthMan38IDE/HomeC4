@@ -34,7 +34,6 @@ int Stepen(int numA, int numB){ // Вычисление степени B
 
 
 // Блок вычисления
-
 int numberA = InputInt("Введите число A:  ");
 int numberB = InputInt("Введите число B:  ");
 System.Console.WriteLine();
